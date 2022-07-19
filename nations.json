@@ -269,11 +269,11 @@
     {
         "id": 4,
         "name": "Hephaemos",
-        "player": "Trollslayer404"
+        "player": "Trollslayer404",
         "stability": 91,
         "warSupport": 50,
-	"tax": 20,
-	"inflation" 11,
+	    "tax": 20,
+	    "inflation": 11,
         "capitulated": false,
         "governmentStructure": 3,
         "governmentIdeology": 0,
@@ -363,7 +363,7 @@
             }
         ],
         "growth": 3,
-        "religon": 3,
+        "religon": 3
     },
 
     {
@@ -519,8 +519,8 @@
     {
         "id": 8,
         "name": "Leria",
-        "player": "ai"
-	"stability": 87,
+        "player": "ai",
+	    "stability": 87,
         "warSupport": 65,
         "tax": 35,
         "inflation": -3,
