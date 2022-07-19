@@ -69,3 +69,7 @@ Destroyer = 2
 Cruiser = 3  
 Battleship = 4  
 Aircraft Carrier = 5  
+### weapons
+infantry eq = 0
+arty = 1
+tanks = 2
