@@ -1,0 +1,85 @@
+[
+    {
+        "id":1,
+        "name": "Tesovakia",
+        "player": "T-34 Soviet Tank"
+    },
+
+    {
+        "id": 2,
+        "name": "The GigaChad Empire",
+        "player": "123xX_GIGACHAD_Xx321"
+    },
+
+    {
+        "id": 3,
+        "name": "Dunmark",
+        "player": "The Canadian"
+    },
+
+    {
+        "id": 4,
+        "name": "Selene’s Chosen",
+        "player": "jade"
+    },
+
+    {
+        "id": 5,
+        "name": "Hephaemos",
+        "player": "Trollslayer404"
+    },
+
+    {
+        "id": 6,
+        "name": "Mountonia",
+        "player": "Drako"
+    },
+    
+    {
+        "id": 7,
+        "name": "Third French Republic",
+        "player": "shagussy"
+    },
+
+    {
+        "id": 8,
+        "name": "The Great and Free Independent Dominion of The Democratic Peoples Republic of Canadia",
+        "player": "a gamer"
+    },
+        
+    {
+        "id": 9,
+        "name": "Leria",
+        "player": "ai"
+    },
+
+    {
+        "id": 10,
+        "name": "Shell",
+        "player": "ai"
+    },
+
+    {
+        "id": 11,
+        "name": "The Texaco Shell Company",
+        "player": "ai"
+    },
+
+    {
+        "id": 12,
+        "name": "Arbor",
+        "player": "ai"
+    },
+
+    {
+        "id": 13,
+        "name": "Astana",
+        "player": "ai"
+    },
+
+    {
+        "id": 14,
+        "name": "Ramlet union",
+        "player": "ai"
+    }
+]
