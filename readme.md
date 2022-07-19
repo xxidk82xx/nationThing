@@ -1,10 +1,16 @@
 # nation bot  
 this bot will handle the everything for project Aevum  
 ## ids  
+### religon law  
+state = 0
+private = 1
+secular = 2
 ### religon  
 none = 0  
 Christine = 1  
-add as new ones are made  
+GigaChadism = 2  
+The Followers of Hephaestus = 3  
+Protestant = 4
 ### culture  
 none = 0  
 Bouclieristic = 1  
