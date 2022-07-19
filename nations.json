@@ -36,6 +36,48 @@
                 "amount": 0
             }
         ],
+        "weapons":
+        [
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            }
+        ],
+        "navy":
+        [
+            {
+                "id": 0,
+                "amount": 3
+            },
+            {
+                "id": 1,
+                "amount": 1
+            },
+            {
+                "id": 2,
+                "amount": 0
+            },
+            {
+                "id": 3,
+                "amount": 0
+            },
+            {
+                "id": 4,
+                "amount": 0
+            },
+            {
+                "id": 5,
+                "amount": 0
+            }
+        ],
         "growth": 2,
         "religon": 
         {
