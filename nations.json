@@ -1,85 +1,210 @@
 [
     {
-        "id":1,
-        "name": "Teslovakia",
+        "id":0,
+        "name": "Tesovakia",
         "player": "T-34 Soviet Tank",
-        "stability": 91
+        "stability": 91,
+        "warSupport": 50,
+        "capitulated": false,
+        "governmentStructure": 1,
+        "governmentIdeology": 0,
+        "maintenance": 5,
+        "conscription": 0,
+        "religon": 
+        {
+            "id": 3,
+            "name": "secular nation"
+        },
+        "cities": 
+        [
+            {
+                "name": "Piscis",
+                "pops": 11,
+                "unemployedPops": 9,
+                "cultures": 
+                [
+                    {
+                        "id": 1,
+                        "pops": 11
+                    }
+                ],
+                "religons":
+                [
+                    {
+                        "id": 0,
+                        "pops": 7
+                    },
+                    {
+                        "id": 1,
+                        "pops": 4
+                    }
+                ],
+                "buildings": 
+                [
+                    {
+                        "id": 0,
+                        "pops": 3,
+                        "level": 3,
+                        "wet": true
+                    },
+                    {
+                        "id": 1,
+                        "pops": 1,
+                        "level": 1
+                    },
+                    {
+                        "id": 0,
+                        "pops": 1,
+                        "level": 1,
+                        "wet": true
+                    },
+                    {
+                        "id": 0,
+                        "pops": 1,
+                        "level": 1,
+                        "wet": true
+                    },
+                    {
+                        "id": 0,
+                        "pops": 1,
+                        "level": 1,
+                        "wet": true
+                    },
+                    {
+                        "id": 0,
+                        "pops": 1,
+                        "level": 1,
+                        "wet": true
+                    },
+                    {
+                        "id": 0,
+                        "pops": 1,
+                        "level": 1,
+                        "wet": true
+                    }
+                ],
+                "growth": 2
+            },
+            {
+                "name": "Hoch",
+                "pops": 4,
+                "unemployedPops": 2,
+                "cultures":
+                [
+                    {
+                        "id": 1,
+                        "pops": 4
+                    }
+                ],
+                "religons":
+                [
+                    {
+                        "id": 0,
+                        "pops": 3
+                    },
+                    {
+                        "id": 1,
+                        "pops": 1
+                    }
+                ],
+                "buildings":
+                [
+                    {
+                        "id": 1,
+                        "pops": 1,
+                        "level": 1
+                    },
+                    {
+                        "id": 2,
+                        "pops": 1
+
+                    }
+                ]
+
+            }
+        ],
+        "wars":
+        {
+
+        }
+
+            
     },
 
     {
-        "id": 2,
+        "id": 1,
         "name": "The GigaChad Empire",
         "player": "123xX_GIGACHAD_Xx321"
     },
 
     {
-        "id": 3,
+        "id": 2,
         "name": "Dunmark",
         "player": "The Canadian"
     },
 
     {
-        "id": 4,
+        "id": 3,
         "name": "Selene’s Chosen",
         "player": "jade"
     },
 
     {
-        "id": 5,
+        "id": 4,
         "name": "Hephaemos",
         "player": "Trollslayer404"
     },
 
     {
-        "id": 6,
+        "id": 5,
         "name": "Mountonia",
         "player": "Drako"
     },
     
     {
-        "id": 7,
+        "id": 6,
         "name": "Third French Republic",
         "player": "shagussy"
     },
 
     {
-        "id": 8,
+        "id": 7,
         "name": "The Great and Free Independent Dominion of The Democratic Peoples Republic of Canadia",
         "player": "a gamer"
     },
         
     {
-        "id": 9,
+        "id": 8,
         "name": "Leria",
         "player": "ai"
     },
 
     {
-        "id": 10,
+        "id": 9,
         "name": "Shell",
         "player": "ai"
     },
 
     {
-        "id": 11,
+        "id": 10,
         "name": "The Texaco Shell Company",
         "player": "ai"
     },
 
     {
-        "id": 12,
+        "id": 11,
         "name": "Arbor",
         "player": "ai"
     },
 
     {
-        "id": 13,
+        "id": 12,
         "name": "Astana",
         "player": "ai"
     },
 
     {
-        "id": 14,
+        "id": 13,
         "name": "Ramlet union",
         "player": "ai"
     }
