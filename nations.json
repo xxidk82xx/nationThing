@@ -413,6 +413,186 @@
         "id": 8,
         "name": "Leria",
         "player": "ai"
+	"stability": 87,
+        "warSupport": 65,
+        "tax": 35,
+        "inflation": -3,
+        "capitulated": false,
+        "governmentStructure": 3,
+        "governmentIdeology": 6,
+        "maintenance": 5,
+        "conscription": 2,
+        "available": 2,
+        "reserve": 1,
+        "military": 1,
+        "growth": 3,
+	"religon": 2,
+        "armies": 
+	[
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 1
+            },
+            {
+                "id": 3,
+                "amount": 0
+            },
+            {
+                "id": 6,
+                "amount": 0
+            }
+        ],
+	"weapons":
+        [
+            {
+                "id": 0,
+                "amount": 2
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            }
+        ],
+        "navy":
+        [
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            },
+            {
+                "id": 3,
+                "amount": 0
+            },
+            {
+                "id": 4,
+                "amount": 0
+            },
+            {
+                "id": 5,
+                "amount": 0
+            }
+        ],
+        "air":
+        [
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            }
+        ],
+	"cities":
+        [
+            {
+                "name": "Cletol",
+                "pops": 4,
+                "unemployedPops": 0,
+                "cultures":
+                [
+		    {
+                        "id": 6,
+                        "pops": 4
+                    }
+                ],
+                "religons":
+                [
+                    {
+                        "id": 0,
+                        "pops": 3
+                    },
+		    {
+                        "id": 2,
+                        "pops": 1
+                    }
+                ],
+                "buildings":
+                [
+                    {
+                        "id": 1,
+                        "pops": 2,
+                        "level": 2
+                    },
+		    {
+			"id": 11,
+                        "pops": 1,
+                        "level": 1
+		    },
+		    {
+			"id": 0,
+                        "pops": 1,
+                        "level": 1,
+			"wet": true
+		    }
+                ]
+            },
+	    {
+                "name": "Verona",
+                "pops": 3,
+                "unemployedPops": 0,
+                "cultures":
+                [
+		    {
+                        "id": 6,
+                        "pops": 3
+                    }
+                ],
+                "religons":
+                [
+                    {
+                        "id": 0,
+                        "pops": 2
+                    },
+		    {
+                        "id": 2,
+                        "pops": 1
+                    }
+                ],
+                "buildings":
+                [
+                    {
+                        "id": 1,
+                        "pops": 2,
+                        "level": 2
+                    },
+		    {
+                        "id": 12,
+                        "pops": 0,
+			"level": 1
+                    },
+		    {
+                        "id": 0,
+                        "pops": 1,
+			"level": 1
+                    }
+                ]
+            }
+        ]
     },
 
     {
