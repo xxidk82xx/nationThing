@@ -2,11 +2,10 @@ const discord = require ("discord.js")
 const path = require('node:path');
 const fs = require("fs");
 const { Client, Intents, Collection } = require('discord.js');
-const [{token}] = require('./config.json');
+const {token} = require('./config.json');
 const client = new Client({ intents: ["Guilds", "GuildMessages"] });
 client.commands = new Collection();
 
-const nationList = require("./nations.json");
 const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 

@@ -8,7 +8,7 @@ module.exports = {
 	async execute(interaction) {
 		if (interaction.user.id !== "518634527267225620")
 		{
-			console.log("not allowed to use this command")
+			interaction.reply({ content: "not allowed to use this command", fetchReply: true })
 			return
 		}
 
