@@ -10,6 +10,7 @@
         "governmentIdeology": 0,
         "maintenance": 5,
         "conscription": 0,
+        "growth": 2,
         "religon": 
         {
             "id": 3,
@@ -82,8 +83,7 @@
                         "level": 1,
                         "wet": true
                     }
-                ],
-                "growth": 2
+                ]
             },
             {
                 "name": "Hoch",
@@ -121,6 +121,39 @@
                     }
                 ]
 
+            },
+            {
+                "name": "Oleum",
+                "pops": 5,
+                "unemployedPops": 2,
+                "cultures":
+                [
+                    {
+                        "id": 1,
+                        "pops": 5
+                    }
+                ],
+                "religons":
+                [
+                    {
+                        "id": 0,
+                        "pops": 5
+                    }
+                ],
+                "buildings":
+                [
+                    {
+                        "id": 1,
+                        "pops": 2,
+                        "level": 2
+                    },
+                    {
+                        "id": 0,
+                        "pops": 1,
+                        "level": 1,
+                        "wet": true
+                    }
+                ]
             }
         ],
         "wars":
