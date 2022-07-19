@@ -2,7 +2,7 @@
 	
 [
 	{
-		"amount": 1
+		"amount": 33
 	},
 	{
 		"name": "none",
@@ -11,5 +11,133 @@
 	{
 		"name": "Bouclieristic",
 		"id": 1
+	},
+	{
+		"name": "Moroccan",
+		"id": 2
+	},
+	{
+		"name": "Wamosh",
+		"id": 3
+	},
+	{
+		"name": "Healers of Selene",
+		"id": 4
+	},
+	{
+		"name": "French",
+		"id": 5
+	},
+	{
+		"name": "Lerian",
+		"id": 6
+	},
+	{
+		"name": "Uhnir",
+		"id": 7
+	},
+	{
+		"name": "GigaChadism",
+		"id": 8
+	},
+	{
+		"name": "Adga",
+		"id": 9
+	},
+	{
+		"name": "Yusgu",
+		"id": 10
+	},
+	{
+		"name": "Hephaemic",
+		"id": 11
+	},
+	{
+		"name": "Turkish",
+		"id": 12
+	},
+	{
+		"name": "Followers of Vamnir",
+		"id": 13
+	},
+	{
+		"name": "Xenophiloca",
+		"id": 14
+	},
+	{
+		"name": "Armenian",
+		"id": 15
+	},
+	{
+		"name": "Arcatie",
+		"id": 16
+	},
+	{
+		"name": "Ize",
+		"id": 17
+	},
+	{
+		"name": "Dutch",
+		"id": 18
+	},
+	{
+		"name": "Consumer",
+		"id": 19
+	},
+	{
+		"name": "Kattosanism",
+		"id": 20
+	},
+	{
+		"name": "Astanian",
+		"id": 21
+	},
+	{
+		"name": "Tanu",
+		"id": 22
+	},
+	{
+		"name": "Ramlet",
+		"id": 23
+	},
+	{
+		"name": "British",
+		"id": 24
+	},
+	{
+		"name": "Mumtox",
+		"id": 25
+	},
+	{
+		"name": "Danish",
+		"id": 26
+	},
+	{
+		"name": "Setan",
+		"id": 27
+	},
+	{
+		"name": "Dunian",
+		"id": 28
+	},
+	{
+		"name": "Swedish",
+		"id": 29
+	},
+	{
+		"name": "Arborian",
+		"id": 30
+	},
+	{
+		"name": "Greek",
+		"id": 31
+	},
+	{
+		"name": "Canadian",
+		"id": 32
+	},
+	{
+		"name": "Icelandic",
+		"id": 33
 	}
 ]
