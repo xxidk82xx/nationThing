@@ -1,48 +1,38 @@
 const discord = require ("discord.js")
-const [{token}] = require('./config.json');
+const path = require('node:path');
 const fs = require("fs");
-const { Client, Intents } = require('discord.js');
+const { Client, Intents, Collection } = require('discord.js');
+const [{token}] = require('./config.json');
 const client = new Client({ intents: ["Guilds", "GuildMessages"] });
+client.commands = new Collection();
+
 const nationList = require("./nations.json");
+const commandsPath = path.join(__dirname, 'commands');
+const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
-client.once('ready', () =>
-{
-    //const general = client.channels.cache.get('978451004800507919')
-    //general.send("test")
-})
 
-client.on('ready', () => 
-{
-    const guild = client.guilds.cache.get("978451004158783509")
-    let commands;
-    if(guild)
-    {
-        commands = guild.commands
-    } 
-    else 
-    {
-        commands = client.application?.commands
-    }
-    commands?.create
-    ({
-        name: 'list',
-        description: 'lists all the nations and users',
-    })
-})
+for (const file of commandFiles) {
+	const filePath = path.join(commandsPath, file);
+	const command = require(filePath);
+	client.commands.set(command.data.name, command);
+}
 
-client.on('interactionCreate', async (interaction) => 
-{
-    if(!interaction.isChatInputCommand()) return
-    if(interaction.commandName === "list")
-    {
-        let replycache = ""
-        nationList.forEach(db => {
-            replycache += db.name + ": ";
-            replycache += db.player;
-            replycache += "\n"
-        });
-        interaction.reply({ content: replycache, fetchReply: true })
-    }
-})
+client.once('ready', () => {
+	console.log('Ready!');
+});
 
+client.on('interactionCreate', async interaction => {
+	if (!interaction.isChatInputCommand()) return;
+
+	const command = client.commands.get(interaction.commandName);
+
+	if (!command) return;
+
+	try {
+		await command.execute(interaction);
+	} catch (error) {
+		console.error(error);
+		await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+	}
+});
 client.login(token);
