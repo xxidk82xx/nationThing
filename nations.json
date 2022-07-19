@@ -326,14 +326,17 @@
         [
             {
                 "id": 0,
+                "Production": 0,
                 "amount": 0
             },
             {
                 "id": 1,
+                "Production": 0,
                 "amount": 0
             },
             {
                 "id": 2,
+                "Production": 0,
                 "amount": 0
             }
         ],
@@ -387,7 +390,10 @@
                 "unemployedPops": 0,
                 "cultures":
                 [
-
+                    {
+                        "id": 32,
+                        "pops": 1
+                    }
                 ],
                 "religons":
                 [
