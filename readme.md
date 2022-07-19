@@ -32,9 +32,9 @@ Anarchism = 0
 Democracy = 1  
 Oligarchy = 2  
 Dictatorship = 3  
-Totalitarianism = 4
+Totalitarianism = 4  
 Monarchy = 5  
-Rebellion = 6
+Rebellion = 6  
 ### ideology  
 Communism = 0  
 Corporatism = 1  
