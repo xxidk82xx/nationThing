@@ -78,6 +78,21 @@
                 "amount": 0
             }
         ],
+        "air":
+        [
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            }
+        ],
         "growth": 2,
         "religon": 
         {
