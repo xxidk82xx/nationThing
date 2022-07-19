@@ -6,7 +6,7 @@
         "stability": 91,
         "warSupport": 50,
         "tax": 19,
-        "inflation": 5,
+        "inflation": 0,
         "capitulated": false,
         "governmentStructure": 1,
         "governmentIdeology": 0,
@@ -16,7 +16,7 @@
         "reserve": 2,
         "military": 0,
         "growth": 2,
-        "religon": 3,
+        "religon": 2,
         "armies":
         [
             {
@@ -44,14 +44,17 @@
         [
             {
                 "id": 0,
+                "Production": 0,
                 "amount": 0
             },
             {
                 "id": 1,
+                "Production": 0,
                 "amount": 0
             },
             {
                 "id": 2,
+                "Production": 0,
                 "amount": 0
             }
         ],
@@ -298,7 +301,7 @@
         "reserve": 0,
         "military": 0,
         "growth": 3,
-        "religon": 0,
+        "religon": 1,
         "armies":
         [
             {
@@ -326,14 +329,17 @@
         [
             {
                 "id": 0,
+                "Production": 0,
                 "amount": 0
             },
             {
                 "id": 1,
+                "Production": 0,
                 "amount": 0
             },
             {
                 "id": 2,
+                "Production": 0,
                 "amount": 0
             }
         ],
@@ -387,7 +393,10 @@
                 "unemployedPops": 0,
                 "cultures":
                 [
-
+                    {
+                        "id": 32,
+                        "pops": 1
+                    }
                 ],
                 "religons":
                 [
@@ -406,7 +415,11 @@
                     }
                 ]
             }
-        ]
+        ],
+        "wars":
+        {
+
+        }
     },
         
     {
