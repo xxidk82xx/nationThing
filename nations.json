@@ -5,11 +5,13 @@
         "player": "T-34 Soviet Tank",
         "stability": 91,
         "warSupport": 50,
+        "tax": 19,
+        "inflation": 5,
         "capitulated": false,
         "governmentStructure": 1,
         "governmentIdeology": 0,
         "maintenance": 5,
-        "conscription": 0,
+        "conscription": 1,
         "available": 2,
         "reserve": 2,
         "military": 0,
@@ -285,6 +287,8 @@
         "player": "a gamer",
         "stability": 63,
         "warSupport": 50,
+        "tax": 39,
+        "inflation": 5,
         "capitulated": false,
         "governmentStructure": 3,
         "governmentIdeology": 0,
@@ -388,7 +392,17 @@
                 "religons":
                 [
                     {
-                        
+                        "id": 0,
+                        "pops": 1
+                    }
+                ],
+                "buildings":
+                [
+                    {
+                        "id": 0,
+                        "pops": 1,
+                        "level": 1,
+                        "wet": true
                     }
                 ]
             }
