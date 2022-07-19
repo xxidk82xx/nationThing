@@ -10,6 +10,9 @@
         "governmentIdeology": 0,
         "maintenance": 5,
         "conscription": 0,
+        "available": 2,
+        "reserve": 2,
+        "military": 0,
         "growth": 2,
         "religon": 
         {
