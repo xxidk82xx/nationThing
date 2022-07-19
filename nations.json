@@ -269,6 +269,102 @@
         "id": 4,
         "name": "Hephaemos",
         "player": "Trollslayer404"
+        "stability": 91,
+        "warSupport": 50,
+	"tax": 20,
+        "capitulated": false,
+        "governmentStructure": 3,
+        "governmentIdeology": 0,
+        "maintenance": 5,
+        "conscription": 2,
+        "available": 1,
+        "reserve": 0,
+        "military": 1,
+        "armies":
+        [
+            {
+                "id": 0,
+                "amount": 1
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            },
+            {
+                "id": 3,
+                "amount": 0
+            },
+            {
+                "id": 6,
+                "amount": 0
+            }
+        ],
+        "weapons":
+        [
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            }
+        ],
+        "navy":
+        [
+            {
+                "id": 0,
+                "amount": 3
+            },
+            {
+                "id": 1,
+                "amount": 1
+            },
+            {
+                "id": 2,
+                "amount": 0
+            },
+            {
+                "id": 3,
+                "amount": 0
+            },
+            {
+                "id": 4,
+                "amount": 0
+            },
+            {
+                "id": 5,
+                "amount": 0
+            }
+        ],
+        "air":
+        [
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            }
+        ],
+        "growth": 3,
+        "religon": 3
+        {
+            "id": 3,
+        },
     },
 
     {
