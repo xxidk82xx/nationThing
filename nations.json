@@ -13,6 +13,29 @@
         "available": 2,
         "reserve": 2,
         "military": 0,
+        "armies":
+        [
+            {
+                "id": 0,
+                "amount": 0
+            },
+            {
+                "id": 1,
+                "amount": 0
+            },
+            {
+                "id": 2,
+                "amount": 0
+            },
+            {
+                "id": 3,
+                "amount": 0
+            },
+            {
+                "id": 6,
+                "amount": 0
+            }
+        ],
         "growth": 2,
         "religon": 
         {
