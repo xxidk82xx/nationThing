@@ -9,5 +9,25 @@
 	{
 		"name": "Christine",
 		"id": 1
+	},
+	{
+		"name": "GigaChadism",
+		"id": 2
+	},
+	{
+		"name": "The Followers of Hephaestus",
+		"id": 3
+	},
+	{
+		"name": "Protestant",
+		"id": 4
+	},
+	{
+		"name": "The Followers of Vanmir",
+		"id": 5
+	},
+	{
+		"name": "Culte de I'Etre suprême",
+		"id": 6
 	}
 ]
