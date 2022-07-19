@@ -1,5 +1,5 @@
 # nation bot  
-this bot will handle the economy for project Aevum  
+this bot will handle the everything for project Aevum  
 ## ids  
 ### religon  
 none = 0  
