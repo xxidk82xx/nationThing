@@ -7,10 +7,12 @@ const {token} = require('./config.json');
 const client = new Client({ intents: ["Guilds", "GuildMessages"] });
 client.commands = new Collection();
 const nationList = require("./nations.json");
-
+const values = require("./values.js");
 const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
+let nationSel = 0;
+let textInput = ['','',''];
 
 for (const file of commandFiles) {
 	const filePath = path.join(commandsPath, file);
@@ -18,17 +20,24 @@ for (const file of commandFiles) {
 	client.commands.set(command.data.name, command);
 }
 
-client.once('ready', () => {
+client.once('ready', () => 
+{
 	console.log('Ready!');
 });
 
-client.on('interactionCreate', async interaction => {
+//client.on("messageCreate", async message =>
+//{
+//	if(message.channel.id == textInput[1] && message.author.id == textInput[0]) textInput[2] = message
+//})
+
+client.on('interactionCreate', async interaction => 
+{
 	if (interaction.isChatInputCommand())
 	{
 		const command = client.commands.get(interaction.commandName);
-
+		
 		if (!command) return;
-
+		
 		try {
 			await command.execute(interaction);
 		} catch (error) {
@@ -40,13 +49,14 @@ client.on('interactionCreate', async interaction => {
 	{
 		if(interaction.customId === "nationSelection")
 		{
-			let selection = nationList[parseInt(interaction.values)]
+			nationSel = parseInt(interaction.values)
+			let selection = nationList[nationSel]
 			var ActionRow = new ActionRowBuilder()
-				.addComponents
-				(
-					new SelectMenuBuilder()
-						.setMinValues(1)
-						.setMaxValues(1)
+			.addComponents
+			(
+				new SelectMenuBuilder()
+				.setMinValues(1)
+				.setMaxValues(1)
 						.setPlaceholder("now select a value")
 						.setCustomId("valueSelection")
 						.setOptions(
@@ -102,13 +112,18 @@ client.on('interactionCreate', async interaction => {
 									value: "religon"
 								}
 							])
-				)
-			interaction.update({content: `you selected ${selection.name}`, components: [ActionRow]})
+							)
+							interaction.update({content: `you selected ${selection.name}`, components: [ActionRow]})
+						}
+						else if(interaction.customId === "valueSelection")
+						{
+			switch(interaction.values[0])
+			{
+				case "stability":
+					values.stability(interaction, textInput, nationSel, client);
+					break;
+				}
+			}
 		}
-		else if(interaction.customId === "valueSelection")
-		{
-
-		}
-	}
-});
-client.login(token);
+	});
+	client.login(token);

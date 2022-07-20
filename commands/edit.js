@@ -20,7 +20,7 @@ module.exports =
 				menuContents[0] = 
 				{
 					label: db.name,
-					description: ' ',
+					description: db.player,
 					value: db.id.toString()
 				}
 			}
@@ -30,7 +30,7 @@ module.exports =
 				(
 					{
 						label: db.name,
-						description: ' ',
+						description: db.player,
 						value: db.id.toString()
 					}
 				)
