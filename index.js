@@ -57,7 +57,7 @@ client.on('interactionCreate', async interaction => {
 									value: "stability"
 								},
 								{
-									label: `stability: ${selection.warSupport}`,
+									label: `war support: ${selection.warSupport}`,
 									description: "the war support of the nation",
 									value: "war support"
 								}
