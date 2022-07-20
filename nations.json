@@ -8,15 +8,31 @@
         "tax": 19,
         "inflation": 0,
         "capitulated": false,
-        "governmentStructure": 1,
-        "governmentIdeology": 0,
+        "governmentStructure": 
+        {
+            "id": 1, 
+            "name":"Democracy"
+        },
+        "governmentIdeology": 
+        {
+            "id": 0,
+            "name": "Communist"
+        },
         "maintenance": 5,
-        "conscription": 1,
+        "conscription": 
+        {
+            "id": 1, 
+            "name": "Volunteer Only"
+        },
         "available": 2,
         "reserve": 2,
         "military": 0,
         "growth": 2,
-        "religon": 2,
+        "religon":
+        {
+            "id": 2, 
+            "name": "Secular Nation"
+        },
         "armies":
         [
             {
@@ -275,10 +291,22 @@
 	    "tax": 20,
 	    "inflation": 11,
         "capitulated": false,
-        "governmentStructure": 3,
-        "governmentIdeology": 0,
+        "governmentStructure":
+        {
+            "id": 3, 
+            "name": "Dictatorship"
+        },
+        "governmentIdeology": 
+        {
+            "id": 0, 
+            "name": "Communist"
+        },
         "maintenance": 5,
-        "conscription": 2,
+        "conscription": 
+        {
+            "id": 2, 
+            "name": "Standard Conscription"
+        },
         "available": 1,
         "reserve": 0,
         "military": 1,
@@ -387,15 +415,31 @@
         "tax": 39,
         "inflation": 5,
         "capitulated": false,
-        "governmentStructure": 3,
-        "governmentIdeology": 0,
+        "governmentStructure": 
+        {
+            "id": 3, 
+            "name": "Dictatorship"
+        },
+        "governmentIdeology": 
+        {
+            "id": 0, 
+            "name": "Communist"
+        },
         "maintenance": 5,
-        "conscription": 0,
+        "conscription": 
+        {
+            "id": 1, 
+            "name": "Volunteer Only"
+        },
         "available": 0,
         "reserve": 0,
         "military": 0,
         "growth": 3,
-        "religon": 1,
+        "religon": 
+        {
+            "id": 1, 
+            "name": "Private Religon"
+        },
         "armies":
         [
             {
@@ -525,17 +569,29 @@
         "tax": 35,
         "inflation": -3,
         "capitulated": false,
-        "governmentStructure": 3,
-        "governmentIdeology": 6,
+        "governmentStructure":
+        {
+            "id": 3, 
+            "name": "Dictatorship"
+        },
+        "governmentIdeology": 
+        {
+            "id": 6, 
+            "name": "Militarist"
+        },
         "maintenance": 5,
         "conscription": 2,
         "available": 2,
         "reserve": 1,
         "military": 1,
         "growth": 3,
-	"religon": 2,
+	    "religon": 
+        {
+            "id": 2, 
+            "name": "Secular Nation"
+        },
         "armies": 
-	[
+	    [
             {
                 "id": 0,
                 "amount": 0
@@ -557,7 +613,7 @@
                 "amount": 0
             }
         ],
-	"weapons":
+	    "weapons":
         [
             {
                 "id": 0,
@@ -622,7 +678,7 @@
                 "unemployedPops": 0,
                 "cultures":
                 [
-		    {
+		            {
                         "id": 6,
                         "pops": 4
                     }
@@ -633,7 +689,7 @@
                         "id": 0,
                         "pops": 3
                     },
-		    {
+		            {
                         "id": 2,
                         "pops": 1
                     }
@@ -645,26 +701,26 @@
                         "pops": 2,
                         "level": 2
                     },
-		    {
-			"id": 11,
+		            {
+			            "id": 11,
                         "pops": 1,
                         "level": 1
-		    },
-		    {
-			"id": 0,
+		            },
+		            {
+			            "id": 0,
                         "pops": 1,
                         "level": 1,
-			"wet": true
-		    }
+			         "wet": true
+		            }
                 ]
             },
-	    {
+	        {
                 "name": "Verona",
                 "pops": 3,
                 "unemployedPops": 0,
                 "cultures":
                 [
-		    {
+		            {
                         "id": 6,
                         "pops": 3
                     }
@@ -675,7 +731,7 @@
                         "id": 0,
                         "pops": 2
                     },
-		    {
+		            {
                         "id": 2,
                         "pops": 1
                     }
@@ -687,15 +743,15 @@
                         "pops": 2,
                         "level": 2
                     },
-		    {
+		            {
                         "id": 12,
                         "pops": 0,
-			"level": 1
+			            "level": 1
                     },
-		    {
+		            {
                         "id": 0,
                         "pops": 1,
-			"level": 1
+			            "level": 1
                     }
                 ]
             }

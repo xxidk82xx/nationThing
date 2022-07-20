@@ -59,7 +59,47 @@ client.on('interactionCreate', async interaction => {
 								{
 									label: `war support: ${selection.warSupport}`,
 									description: "the war support of the nation",
-									value: "war support"
+									value: "warSupport"
+								},
+								{
+									label: `government structure: ${selection.governmentStructure.name}`,
+									description: "the structure of the nations government",
+									value: "governmentStructure"
+								},
+								{
+									label: `government ideology: ${selection.governmentIdeology.name}`,
+									description: "the ideology of the nation",
+									value: "governmuntIdeology"
+								},
+								{
+									label: `tax: ${selection.tax}`,
+									description: "the tax rate of the nation",
+									value: "tax"
+								},
+								{
+									label: `inflation: ${selection.inflation}`,
+									description: "the inflation rate of the nation",
+									value: "inflation"
+								},
+								{
+									label: `maintenance: ${selection.maintenance}`,
+									description: "the maintenance level of the nation",
+									value: "maintenance"
+								},
+								{
+									label: `conscription: ${selection.conscription.name}`,
+									description: "the conscription law of the nation",
+									value: "conscription"
+								},
+								{
+									label: `military: ${selection.military}`,
+									description: "the amount of people in the military",
+									value: "military"
+								},
+								{
+									label: `religous law: ${selection.religon.name}`,
+									description: "the religous law of the nation",
+									value: "religon"
 								}
 							])
 				)
