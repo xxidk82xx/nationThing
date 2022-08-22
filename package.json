@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "d20": "^1.4.1",
     "discord.js": "^14.0.2"
   }
 }

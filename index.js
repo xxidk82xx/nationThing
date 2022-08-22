@@ -11,6 +11,7 @@ const values = require("./values.js");
 const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
+
 let nationSel = 0;
 let textInput = ['','',''];
 
@@ -117,13 +118,13 @@ client.on('interactionCreate', async interaction =>
 						}
 						else if(interaction.customId === "valueSelection")
 						{
-			switch(interaction.values[0])
-			{
-				case "stability":
-					values.stability(interaction, textInput, nationSel, client);
-					break;
-				}
-			}
+							switch(interaction.values[0])
+							{
+								case "stability":
+									values.stability(interaction, textInput, nationSel, client);
+									break;
+							}
+						}
 		}
 	});
 	client.login(token);
